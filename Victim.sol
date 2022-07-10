@@ -13,7 +13,7 @@ contract Victim {
   
   function withdraw() public {
     uint256 amount = balances[msg.sender];
-    require(msg.sender.call.value(amount)());
+    // require(msg.sender.call{value: amount}(""));
     balances[msg.sender] = 0;
   }
 }
