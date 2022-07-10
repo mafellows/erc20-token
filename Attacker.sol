@@ -17,7 +17,7 @@ contract Attack {
     
     function attack() external payable {
         require(msg.value >= 1 ether);
-        victim.deposit{value: 1 ether}();
+        // victim.deposit{value: 1 ether}();
         victim.withdraw();
     }
 }
