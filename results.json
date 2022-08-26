@@ -1,0 +1,894 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Victim",
+            "source_mapping": {
+              "start": 25,
+              "length": 367,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "victim",
+            "source_mapping": {
+              "start": 91,
+              "length": 53,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "victim()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "deposit",
+            "source_mapping": {
+              "start": 150,
+              "length": 77,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "deposit()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found:\n\tContract Victim (Victim.sol#3-20) has payable functions:\n\t - Victim.victim() (Victim.sol#6-8)\n\t - Victim.deposit() (Victim.sol#10-12)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found:\n\tContract [Victim](Victim.sol#L3-L20) has payable functions:\n\t - [Victim.victim()](Victim.sol#L6-L8)\n\t - [Victim.deposit()](Victim.sol#L10-L12)\n\tBut does not have a function to withdraw the ether\n",
+        "first_markdown_element": "Victim.sol#L3-L20",
+        "id": "a069639a855bfd02a8cbf60d112957ee49b22800396d6c1e23ab07ac39606dfa",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.8.13 is not recommended for deployment\n",
+        "markdown": "solc-0.8.13 is not recommended for deployment\n",
+        "first_markdown_element": "",
+        "id": "bc56806acae80296337a907273e86b040bfd9b323ee999e7bfc4971d888f5838",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "victim",
+            "source_mapping": {
+              "start": 91,
+              "length": 53,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "victim()"
+            }
+          }
+        ],
+        "description": "victim() should be declared external:\n\t- Victim.victim() (Victim.sol#6-8)\n",
+        "markdown": "victim() should be declared external:\n\t- [Victim.victim()](Victim.sol#L6-L8)\n",
+        "first_markdown_element": "Victim.sol#L6-L8",
+        "id": "8c15f0e671af2e126bd5a0823a9a0ee88fb53cdbf98a07803bbbcb4d620adc1a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 233,
+              "length": 157,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Victim.withdraw() (Victim.sol#14-18)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Victim.withdraw()](Victim.sol#L14-L18)\n",
+        "first_markdown_element": "Victim.sol#L14-L18",
+        "id": "b06c9e9aae38ac7ee52cc7144e6cbe26167645360a1bb4c8db12d4ab63114226",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "^0.8.13",
+            "source_mapping": {
+              "start": 0,
+              "length": 24,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Contract.sol",
+              "filename_relative": "Contract.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Contract.sol",
+              "filename_short": "Contract.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "^",
+                "0.8",
+                ".13"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version^0.8.13 (Contract.sol#1) necessitates a version too recent to be trusted. Consider deploying with 0.6.12/0.7.6/0.8.7\n",
+        "markdown": "Pragma version[^0.8.13](Contract.sol#L1) necessitates a version too recent to be trusted. Consider deploying with 0.6.12/0.7.6/0.8.7\n",
+        "first_markdown_element": "Contract.sol#L1",
+        "id": "91dd1efc2bae51d8076840435f260aa0ed4aefefbc61aada0318f9aab1cbcd57",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.8.13 is not recommended for deployment\n",
+        "markdown": "solc-0.8.13 is not recommended for deployment\n",
+        "first_markdown_element": "",
+        "id": "bc56806acae80296337a907273e86b040bfd9b323ee999e7bfc4971d888f5838",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "add",
+            "source_mapping": {
+              "start": 78,
+              "length": 95,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Contract.sol",
+              "filename_relative": "Contract.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Contract.sol",
+              "filename_short": "Contract.sol",
+              "is_dependency": false,
+              "lines": [
+                7,
+                8,
+                9
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Contract",
+                "source_mapping": {
+                  "start": 27,
+                  "length": 148,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Contract.sol",
+                  "filename_relative": "Contract.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Contract.sol",
+                  "filename_short": "Contract.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "add(uint256,uint256)"
+            }
+          }
+        ],
+        "description": "add(uint256,uint256) should be declared external:\n\t- Contract.add(uint256,uint256) (Contract.sol#7-9)\n",
+        "markdown": "add(uint256,uint256) should be declared external:\n\t- [Contract.add(uint256,uint256)](Contract.sol#L7-L9)\n",
+        "first_markdown_element": "Contract.sol#L7-L9",
+        "id": "79774d9f93af2ba250bc6251871816b6f6b49736bdb1e321cb3d3704fa8bdd31",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "attack",
+            "source_mapping": {
+              "start": 318,
+              "length": 150,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+              "filename_relative": "Attacker.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+              "filename_short": "Attacker.sol",
+              "is_dependency": false,
+              "lines": [
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Attack",
+                "source_mapping": {
+                  "start": 50,
+                  "length": 420,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+                  "filename_relative": "Attacker.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+                  "filename_short": "Attacker.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "attack()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "victim.deposit{value: 1000000000000000000}()",
+            "source_mapping": {
+              "start": 402,
+              "length": 32,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+              "filename_relative": "Attacker.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+              "filename_short": "Attacker.sol",
+              "is_dependency": false,
+              "lines": [
+                20
+              ],
+              "starting_column": 9,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "attack",
+                "source_mapping": {
+                  "start": 318,
+                  "length": 150,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+                  "filename_relative": "Attacker.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+                  "filename_short": "Attacker.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Attack",
+                    "source_mapping": {
+                      "start": 50,
+                      "length": 420,
+                      "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+                      "filename_relative": "Attacker.sol",
+                      "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Attacker.sol",
+                      "filename_short": "Attacker.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 0
+                    }
+                  },
+                  "signature": "attack()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Attack.attack() (Attacker.sol#18-22) sends eth to arbitrary user\n\tDangerous calls:\n\t- victim.deposit{value: 1000000000000000000}() (Attacker.sol#20)\n",
+        "markdown": "[Attack.attack()](Attacker.sol#L18-L22) sends eth to arbitrary user\n\tDangerous calls:\n\t- [victim.deposit{value: 1000000000000000000}()](Attacker.sol#L20)\n",
+        "first_markdown_element": "Attacker.sol#L18-L22",
+        "id": "9825ccf349927a73cae0cc30965cf2f9d57c94a4f5b31b60dcbb265a69c5bc5c",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Victim",
+            "source_mapping": {
+              "start": 25,
+              "length": 367,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "starting_column": 1,
+              "ending_column": 0
+            }
+          },
+          {
+            "type": "function",
+            "name": "victim",
+            "source_mapping": {
+              "start": 91,
+              "length": 53,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "victim()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "deposit",
+            "source_mapping": {
+              "start": 150,
+              "length": 77,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                10,
+                11,
+                12
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "deposit()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found:\n\tContract Victim (Victim.sol#3-20) has payable functions:\n\t - Victim.victim() (Victim.sol#6-8)\n\t - Victim.deposit() (Victim.sol#10-12)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found:\n\tContract [Victim](Victim.sol#L3-L20) has payable functions:\n\t - [Victim.victim()](Victim.sol#L6-L8)\n\t - [Victim.deposit()](Victim.sol#L10-L12)\n\tBut does not have a function to withdraw the ether\n",
+        "first_markdown_element": "Victim.sol#L3-L20",
+        "id": "a069639a855bfd02a8cbf60d112957ee49b22800396d6c1e23ab07ac39606dfa",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      },
+      {
+        "elements": [],
+        "description": "solc-0.8.13 is not recommended for deployment\n",
+        "markdown": "solc-0.8.13 is not recommended for deployment\n",
+        "first_markdown_element": "",
+        "id": "bc56806acae80296337a907273e86b040bfd9b323ee999e7bfc4971d888f5838",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "victim",
+            "source_mapping": {
+              "start": 91,
+              "length": 53,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "victim()"
+            }
+          }
+        ],
+        "description": "victim() should be declared external:\n\t- Victim.victim() (Victim.sol#6-8)\n",
+        "markdown": "victim() should be declared external:\n\t- [Victim.victim()](Victim.sol#L6-L8)\n",
+        "first_markdown_element": "Victim.sol#L6-L8",
+        "id": "8c15f0e671af2e126bd5a0823a9a0ee88fb53cdbf98a07803bbbcb4d620adc1a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "withdraw",
+            "source_mapping": {
+              "start": 233,
+              "length": 157,
+              "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_relative": "Victim.sol",
+              "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+              "filename_short": "Victim.sol",
+              "is_dependency": false,
+              "lines": [
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Victim",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 367,
+                  "filename_used": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_relative": "Victim.sol",
+                  "filename_absolute": "/Users/michaelfellows/dev/crypto-guardian/erc20-token/Victim.sol",
+                  "filename_short": "Victim.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 0
+                }
+              },
+              "signature": "withdraw()"
+            }
+          }
+        ],
+        "description": "withdraw() should be declared external:\n\t- Victim.withdraw() (Victim.sol#14-18)\n",
+        "markdown": "withdraw() should be declared external:\n\t- [Victim.withdraw()](Victim.sol#L14-L18)\n",
+        "first_markdown_element": "Victim.sol#L14-L18",
+        "id": "b06c9e9aae38ac7ee52cc7144e6cbe26167645360a1bb4c8db12d4ab63114226",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}
